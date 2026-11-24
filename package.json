@@ -1,0 +1,13 @@
+{
+  "name": "part-time-pilot",
+  "version": "0.1.0",
+  "description": "Part-Time Pilot — Chapter One: The Scrap Pit. A comedic auto-battling mech builder prototype.",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js --no-open",
+    "balance": "node tools/balance.js",
+    "check": "node tools/smoke.js"
+  },
+  "license": "UNLICENSED"
+}
