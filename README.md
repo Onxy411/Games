@@ -25,6 +25,14 @@ The game runs at any 16:9 window size; fullscreen (F11) looks best. Save data li
 localStorage (or the desktop app's own storage) and autosaves after every change. Fonts load from Google
 Fonts; offline, it falls back to a monospace font.
 
+## Building the Windows version
+
+`npm run build:win` installs Electron into `desktop/` (first time only), copies the game in, and writes
+`desktop/dist/Part-Time-Pilot-win.zip` (about 160 MB). Testers unzip it anywhere and run
+`Part-Time Pilot.exe`. The exe is not code-signed, so Windows SmartScreen may say "Windows protected your
+PC": click **More info → Run anyway**. Desktop saves live in `%APPDATA%\Part-Time Pilot` (separate from
+browser saves). F11 toggles fullscreen.
+
 ## How to play
 
 1. **Junkyard hub**: click a slot on the left (Chassis, Head, Legs, Arms, flexible Hardpoints, Modules) and

@@ -1,0 +1,17 @@
+{
+  "name": "part-time-pilot-desktop",
+  "productName": "Part-Time Pilot",
+  "version": "0.2.0",
+  "description": "Part-Time Pilot — desktop (Electron) build of the browser game.",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "node build.js"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^45.4.1"
+  }
+}
